@@ -55,7 +55,7 @@
     <dryRun>true</dryRun>
     <github.site.skip>true</github.site.skip> <!-- over 0.9 -->
 
-	<ignoreSnapshots>false</ignoreSnapshots>
+	<ignoreSnapshots>true</ignoreSnapshots>
   </properties>
 
   <dependencies>
