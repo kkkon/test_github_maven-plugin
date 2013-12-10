@@ -53,6 +53,7 @@
 
 
     <dryRun>true</dryRun>
+	<github.site.dryRun>true</github.site.dryRun>
     <github.site.skip>true</github.site.skip> <!-- over 0.9 -->
 
 	<ignoreSnapshots>true</ignoreSnapshots>
@@ -204,7 +205,7 @@
           <branch>refs/heads/gh-pages</branch>
           <merge>true</merge>
           <path>maven</path>
-          <dryRun>${dryRun}</dryRun>
+          <dryRun>${github.site.dryRun}</dryRun>
         </configuration>
         <executions>
           <execution>
